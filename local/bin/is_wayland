@@ -1,0 +1,4 @@
+#! /usr/bin/fish
+
+test $(loginctl show-session $(loginctl | awk '/tty/ {print $1}') -p Type | awk -F= '{print $2}') = "wayland"
+
