@@ -1,0 +1,4 @@
+#! /bin/fish
+
+~/repos/librespot/target/release/librespot --name gwen -b 320 --device-type computer --cache ./cache
+

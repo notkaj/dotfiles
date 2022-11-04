@@ -1,0 +1,6 @@
+#!/bin/fish
+
+set ver $(find ~/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/ -maxdepth 1 -type d -printf '%f\n' | sort -r | sed -n 3p)
+set path ~/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/$ver/bin/idea.sh
+
+exec $path
