@@ -1,0 +1,4 @@
+set -u fish_cursor_default block
+set -u fish_cursor_insert underscore
+set -u fish_cursor_replace_one underscore
+set -u fish_cursor_visual block
