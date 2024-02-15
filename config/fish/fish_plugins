@@ -1,6 +1,8 @@
 jorgebucaran/fisher
-IlanCosman/tide@v5
 jethrokuan/z
-reitzig/sdkman-for-fish@v1.4.0
-PatrickF1/fzf.fish
+patrickf1/fzf.fish
 catppuccin/fish
+laughedelic/fish_logo
+ilancosman/tide@v6
+reitzig/sdkman-for-fish@v2.0.0
+jorgebucaran/autopair.fish
