@@ -1,3 +1,4 @@
-function lr --wraps='ls -tRFh' --description 'alias lr=ls -tRFh'
-  ls -tRFh $argv; 
+function lr --wraps='ls -tRFh' --wraps='l -R' --description 'alias lr l -R'
+  l -R $argv
+        
 end

@@ -1,3 +1,4 @@
-function lt --wraps='ls -ltFh' --description 'alias lt=ls -ltFh'
-  ls -ltFh $argv; 
+function lt --wraps='ls -ltFh' --wraps='l -rs time' --description 'alias lt l -rs time'
+  l -rs time $argv
+        
 end
