@@ -1,3 +1,3 @@
-function matrix --wraps='cmatrix -abu 3' --description 'alias matrix=cmatrix -abu 3'
-  cmatrix -abu 3 $argv; 
+function matrix --wraps='cmatrix -abu 3' --wraps='cmatrix -abC magenta -u 2' --description 'alias matrix=cmatrix -abC magenta -u 2'
+  cmatrix -abC magenta -u 2 $argv; 
 end
