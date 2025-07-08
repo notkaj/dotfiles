@@ -16,5 +16,8 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.completion.cmp-cmdline" },
+  -- { import = "astrocommunity.lsp.lspsaga-nvim" },
+  { import = "astrocommunity.icon.mini-icons" },
 }

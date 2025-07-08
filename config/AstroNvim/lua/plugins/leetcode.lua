@@ -13,6 +13,9 @@ return {
   },
   opts = {
     -- configuration goes here
-    lang = "Kotlin",
+    lang = "kotlin",
+    description = {
+      width = "25%",
+    },
   },
 }

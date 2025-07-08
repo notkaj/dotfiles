@@ -5,14 +5,47 @@ if true then return end -- WARN: REMOVE LINE TO ACTIVATE THIS FILE
 -- fit in the normal config locations above can go here
 
 -- Set up custom filetypes
-vim.filetype.add {
-  extension = {
-    foo = "fooscript",
-  },
-  filename = {
-    ["Foofile"] = "fooscript",
-  },
-  pattern = {
-    ["~/%.config/foo/.*"] = "fooscript",
-  },
-}
+-- vim.filetype.add {
+--   extension = {
+--     foo = "fooscript",
+--   },
+--   filename = {
+--     ["Foofile"] = "fooscript",
+--   },
+--   pattern = {
+--     ["~/%.config/foo/.*"] = "fooscript",
+--   },
+-- }
+
+-- require("noice").setup {
+--   views = {
+--     cmdline_popup = {
+--       position = {
+--         row = 5,
+--         col = "50%",
+--       },
+--       size = {
+--         width = 60,
+--         height = "auto",
+--       },
+--     },
+--     popupmenu = {
+--       relative = "editor",
+--       position = {
+--         row = 8,
+--         col = "50%",
+--       },
+--       size = {
+--         width = 60,
+--         height = 10,
+--       },
+--       border = {
+--         style = "rounded",
+--         padding = { 0, 1 },
+--       },
+--       win_options = {
+--         winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
+--       },
+--     },
+--   },
+-- }
