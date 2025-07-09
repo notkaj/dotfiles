@@ -1,0 +1,5 @@
+[general]
+import = ["/home/kaj/.config/alacritty/catppuccin/catppuccin-mocha.toml", "/home/kaj/.config/alacritty/font/fira-code.toml"]
+
+#[env]
+#TERM = "xterm-256color"
