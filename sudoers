@@ -1,0 +1,3 @@
+## Laptop stuff
+Cmnd_Alias LIGHT = /sbin/light, /usr/bin/light
+%laptop ALL=(root) NOPASSWD: LIGHT
