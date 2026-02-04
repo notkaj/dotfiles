@@ -8,7 +8,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.kotlin" },
@@ -16,8 +15,12 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
-  -- { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.completion.cmp-cmdline" },
-  -- { import = "astrocommunity.lsp.lspsaga-nvim" },
+  { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.utility.noice-nvim" },
+
+  -- import/override with your plugins folder
 }
