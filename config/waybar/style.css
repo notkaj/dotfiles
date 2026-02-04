@@ -12,11 +12,27 @@ window#waybar {
   background-color: transparent;
   /* color: @text; */
   transition-property: background-color;
-  transition-duration: 0.5s;
+  transition-duration: 1.5s;
 }
 
-window#waybar.hidden {
-  opacity: 0.2;
+/* window#waybar.com\.mitchellh\.ghostty { */
+/*   background-color: alpha(@base, 0.97); */
+/* } */
+
+window#waybar.com\.mitchellh\.ghostty {
+  background-color: alpha(@base, 0.97);
+}
+
+window#waybar.spotify {
+  background-color: alpha(@base, 0.97);
+}
+
+window#waybar.Slack {
+  background-color: alpha(@base, 0.97);
+}
+
+window#waybar.firefox {
+  background-color: alpha(@base, 1.00);
 }
 
 /*
@@ -189,7 +205,7 @@ label:focus {
 }
 
 #backlight {
-  background-color: #90b1b1;
+  border: 1px solid @sapphire;
 }
 
 #network {
